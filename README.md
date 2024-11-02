@@ -1,4 +1,7 @@
 # Traveling Salesman Problem (TSP) Solver
+As a baseline, a simple **greedy algorithm** was applied to the TSP dataset, yielding a best distance of **4436**.
+Trial and error revealed that using **elitism** significantly improved solution quality, so it has been incorporated in the final EA configuration to retain the best solutions across generations. 
+The basic greedy algorithm approach served as a comparison point for evaluating EA configurations. As a starting point, I have used random permutations created from the initial dataset in the EA, but after doing this lab I have come to realize that a greedy solution as one of the starting possible solutions is a more time-efficient and logical starting point, providing a better foundation for further optimization using EA algorithms.
 
 ## Lab Requirements
 The requirements for the lab are as follows:
